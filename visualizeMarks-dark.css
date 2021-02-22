@@ -263,6 +263,8 @@ input.radio:focus~label:before {
 	position: absolute;
 	display: none;
 	width: 200px;
+	max-height: 400px;
+	overflow: auto;
 }
 
 #checkboxes label {
@@ -275,5 +277,6 @@ input.radio:focus~label:before {
 }
 
 #checkboxes label:hover {
+	cursor: pointer;
 	background-color: #4B99AD;
 }
