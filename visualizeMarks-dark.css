@@ -238,6 +238,10 @@ input.radio:focus~label:before {
 	position: relative;
 }
 
+.selectBox :hover {
+	cursor: pointer;
+}
+
 .selectBox select {
 	width: 100%;
 	color: #4f4f4f;
