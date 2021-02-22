@@ -245,6 +245,9 @@ input.radio:focus~label:before {
 
 .selectBox select {
 	width: 100%;
+	color: #4f4f4f;
+	font-size: 17px;
+	font-family: serif;
 }
 
 .overSelect {
@@ -257,16 +260,16 @@ input.radio:focus~label:before {
 
 #checkboxes {
 	display: none;
-	border-bottom: 1px solid #696866 ;
+	border-bottom: 1px solid #696866;
 	position: absolute;
-    display: none;
-    width: 200px;
+	display: none;
+	width: 200px;
 }
 
 #checkboxes label {
 	display: block;
 	background: white;
-	color:#000;
+	color: #474747;
 	border-bottom: 0px;
 	border-radius: 0px;
 }

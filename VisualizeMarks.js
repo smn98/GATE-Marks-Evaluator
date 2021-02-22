@@ -510,9 +510,7 @@ function showCheckboxes() {
 
 $(document).mouseup(function (e) {
 	var checkboxes = $("#checkboxes");
-	var multiselect = $(".multiselect")
-
-	// if the target of the click isn't the container nor a descendant of the container
+	var multiselect = $(".multiselect");
 	if (!checkboxes.is(e.target) && checkboxes.has(e.target).length === 0 && !multiselect.is(e.target) && multiselect.has(e.target).length === 0) {
 		checkboxes.hide();
 		expanded = false;
